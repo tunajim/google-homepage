@@ -1,0 +1,247 @@
+
+
+.navbar{
+    //background-color: thistle;
+    display: flex;
+    width: 99%;
+    margin-top: 1%;
+    margin-left: 1%;   
+    color: black;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.navbar div{
+    display: flex;
+    //background-color: teal;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.navbar .nav-left a:hover{
+    text-decoration: underline;
+}
+
+.navbar .nav-right a:hover{
+    text-decoration: underline;   
+}
+
+.navbar .nav-right img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(117, 117, 117);
+
+}
+
+.nav-left{
+    
+    
+}
+
+.nav-left a{
+    color: black;
+    font-size: 13px;
+    margin-top: 2px;
+    opacity: 90%;
+}
+
+.nav-right{
+    margin-right: 10px;
+    display: flex;
+    width: auto;
+}
+
+.menu-btn{
+    background: none;
+    
+}
+
+.nav-right a{
+    color: black;
+    font-size: 13px;
+    opacity: 90%;
+}
+.user-icon{
+    border-radius: 50%;
+}
+
+.push{
+    margin-left: auto;
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container{
+    //position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 50%;
+    padding: auto;
+    top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
+    //height: 40px;
+    //border-radius: 40px;
+    //padding: 4px;
+    //border: .5px solid rgb(194, 190, 190);
+    //opacity: 70%;
+        
+}
+
+.container div{
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    //justify-content: center;
+    flex-wrap: wrap;
+}
+.logo {
+    flex: 1;
+    //width: 17.5%;
+    //margin-top: 12.5%;
+    justify-content: center;
+    
+} 
+
+.search-container{
+    flex: 2;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 10px
+}
+
+
+.search-bar {
+    border: .5px solid rgb(194, 190, 190);
+    border-radius: 40px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    //align-items: center;
+    transition: 0.4s;
+    line-height: 40px;
+    padding: 24px;
+    font-size: medium;    
+}
+.search-container a{
+    position: absolute;
+    width: 15px;
+    height: 20px;  
+    margin-left: 20px;  
+    //display: inline-block;
+    z-index: 500;
+    
+    align-content: center;
+    align-items: center;    
+    margin-top: 17px;
+    opacity: 50%;
+}
+
+.search-container input:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgb(134, 134, 134);
+}
+
+.sub-search-btns{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    opacity: 70%;
+}
+
+.sub-search-btns button:hover{
+    box-shadow: 0 0 5px rgb(153, 153, 153);
+    opacity: 150%;
+}
+.google-search-btn{
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.lucky-btn{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(240, 240, 240)
+}
+
+.footer-bar{
+    position: absolute;
+    background-color: rgb(228, 228, 228);
+    opacity: 70%;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;   
+    display:flex;
+    align-items: ;
+}
+
+.footer-bar div{
+    //border: 1px solid lightseagreen;
+    padding: 14px;
+}
+.footer-left{
+  //background-color: lawngreen;
+  flex: 2;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-left a{ 
+    //background-color:rgb(199, 103, 103);
+    font-size: 12px;
+    text-decoration: none;
+    align-content: center;
+    color: black;
+    opacity: 90%;
+}
+
+.footer-center {
+    //background-color: lawngreen;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-center a{
+    //background-color: teal;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+}
+
+.footer-center img{
+    //background-color: teal;
+    width: 10px;
+}
+
+.footer-right{
+    //background-color: lawngreen;
+    flex: 2;
+    display: flex;
+    gap: 30px;    
+    justify-content: flex-end;
+}
+.footer-right a{
+    //background-color:rgb(199, 103, 103);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+}
+
+.footer-bar a:hover{
+    text-decoration: underline;
+}
